@@ -1,0 +1,47 @@
+<html>
+<meta charset="utf-8">
+<script>
+	let result = null;
+	let zagadka = prompt("Висит груша, нельзя скушать", "");
+
+		if (zagadka == "Лампочка") {
+			alert("Ты совершенно прав!")
+			result++;
+		}
+		else if (zagadka == "лампочка") {
+			alert("Ты совершенно прав!")
+			result++;
+		}
+		else {
+			alert("Не верно");
+		}
+	
+	let zagadka_1 = prompt("Не лает, не кусает, а в дом не пускает", "");
+	
+	if (zagadka_1 =='Замок') {
+		alert("Ты совершенно прав!")
+		result++;
+	}
+	else if (zagadka_1 == "замок") {
+		alert("Ты совершенно прав!")
+		result++;
+	}
+	else {
+		alert("Не верно")
+	}
+
+	let zagadka_2 = prompt("Без окон, без дверей полна горница людей");
+	if (zagadka_2 =='Огурец') {
+		alert("Ты совершенно прав!")
+		result++;
+	}
+	else if (zagadka_2 == "огурец") {
+		alert("Ты совершенно прав!")
+		result++;
+	}
+	else {
+		alert("Не верно")
+	}
+	alert ("Сделано задач верно: " + result);
+</script>
+</html>
